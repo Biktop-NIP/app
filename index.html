@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header><h2>Блютуз</h2></header>
+    
+
+
+    <div class="content">
+        <div class="connect">
+            <button id="connect" type="button">подключится</button>
+        </div>
+
+
+        <div class="contolos__box none">
+            <div class="control">
+                <h2>Синий диод 1</h2>
+                <button class="switch-btn" data-pin="0"></button>
+            </div>
+            <div class="control">
+                <h2>Синий диод 2</h2>
+                <button class="switch-btn" data-pin="1"></button>
+            </div>
+            <div class="control">
+                <h2>Красный диод</h2>
+                <button class="switch-btn" data-pin="2"></button>
+            </div>
+            <div class="control">
+                <h2>Зелёный диод</h2>
+                <button class="switch-btn" data-pin="3"></button>
+            </div>
+            <div class="range-control">
+                <h2>Зелйный</h2>
+                <input type="range" value="100" min="0" max="100" data-pin="4">
+            </div>
+            <div class="range-control">
+                <h2>Красный</h2>
+                <input type="range" value="100" min="0" max="100" data-pin="5">
+            </div>
+            <div class="range-control">
+                <h2>Синий</h2>
+                <input type="range" value="100" min="0" max="100" data-pin="6">
+            </div>
+
+        </div>        
+    </div>
+
+<script src="send.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
