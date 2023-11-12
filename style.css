@@ -70,16 +70,17 @@ input[type="range"]::-ms-track
 
 @media (min-width: 800px){
     .control {
-        display: inline-flex;
-        width:  200px;
-        margin-left: 200px;
+        width: 50vw;
     }
-    .switch-btn {
-    
+    .contolos__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
     }
+
     .content {
         display: flex;
-        flex-wrap: wrap;
+        justify-content: center;
         margin-left: 20vw;
         margin-right: 20vw;
     }
